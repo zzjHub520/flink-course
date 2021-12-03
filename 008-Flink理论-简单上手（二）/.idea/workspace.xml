@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08106f7e-46fa-4ba5-8ceb-afc71548b7d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../007-Flink理论-简单上手（一）/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../007-Flink理论-简单上手（一）/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../007-Flink理论-简单上手（一）/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../007-Flink理论-简单上手（一）/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../007-Flink理论-简单上手（一）/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../007-Flink理论-简单上手（一）/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../007-Flink理论-简单上手（一）/target/classes/com/atguigu/wc/WordCount$MyFlatMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../007-Flink理论-简单上手（一）/target/classes/com/atguigu/wc/WordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../007-Flink理论-简单上手（一）/target/classes/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/wc/StreamWordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/wc/WordCount$MyFlatMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/atguigu/wc/WordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../009-Flink理论-简单上手（三）/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../009-Flink理论-简单上手（三）/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../009-Flink理论-简单上手（三）/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../009-Flink理论-简单上手（三）/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../009-Flink理论-简单上手（三）/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../009-Flink理论-简单上手（三）/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../024-Flink理论-流处理API-source（一）从集合读取数据/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../024-Flink理论-流处理API-source（一）从集合读取数据/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../024-Flink理论-流处理API-source（一）从集合读取数据/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../024-Flink理论-流处理API-source（一）从集合读取数据/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../024-Flink理论-流处理API-source（一）从集合读取数据/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../024-Flink理论-流处理API-source（一）从集合读取数据/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../024-Flink理论-流处理API-source（一）从集合读取数据/src/main/java/com/atguigu/apitest/beans/SensorReading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../024-Flink理论-流处理API-source（一）从集合读取数据/src/main/java/com/atguigu/apitest/source/SourceTest1_Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/src/main/java/com/atguigu/wc/StreamWordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/src/main/java/com/atguigu/wc/WordCount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/src/main/resources/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/target/classes/com/atguigu/wc/WordCount$MyFlatMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/target/classes/com/atguigu/wc/WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project/01-Flink理论-简单上手（一）/target/classes/hello.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="21mWcpHYt9vDj1wCSDUTdkuMyxO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.StreamWordCount">
+    <configuration name="StreamWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.wc.StreamWordCount" />
+      <module name="008-Flink理论-简单上手（二）" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.wc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.wc.WordCount" />
+      <module name="008-Flink理论-简单上手（二）" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.wc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StreamWordCount" />
+        <item itemvalue="Application.WordCount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08106f7e-46fa-4ba5-8ceb-afc71548b7d2" name="Changes" comment="" />
+      <created>1638546829688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638546829688</updated>
+      <workItem from="1638546830796" duration="278000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
