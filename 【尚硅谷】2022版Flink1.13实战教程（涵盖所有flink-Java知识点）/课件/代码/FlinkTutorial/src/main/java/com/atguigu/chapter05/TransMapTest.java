@@ -22,7 +22,7 @@ public class TransMapTest {
                 new Event("Bob", "./cart", 2000L)
         );
 
-        // 传入匿名类，实现MapFunction
+        // 1  传入匿名类，实现MapFunction
         stream.map(new MapFunction<Event, String>() {
             @Override
             public String map(Event e) throws Exception {
@@ -30,8 +30,11 @@ public class TransMapTest {
             }
         });
 
-        // 传入MapFunction的实现类
-        stream.map(new UserExtractor()).print();
+        // 2 传入MapFunction的实现类
+        stream.map(new UserExtractor());
+
+        // 3 Lambda 表达式
+        stream.map(data -> data.user).print();
 
         env.execute();
     }

@@ -24,7 +24,7 @@ public class SourceCustomParallelTest {
 
     public static class CustomSource implements ParallelSourceFunction<Integer> {
         private boolean running = true;
-        private Random random = new Random();
+        private final Random random = new Random();
 
         @Override
         public void run(SourceContext<Integer> sourceContext) throws Exception {
