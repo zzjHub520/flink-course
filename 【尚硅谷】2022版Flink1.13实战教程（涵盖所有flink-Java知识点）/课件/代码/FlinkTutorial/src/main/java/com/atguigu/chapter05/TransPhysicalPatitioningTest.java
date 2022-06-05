@@ -30,7 +30,7 @@ public class TransPhysicalPatitioningTest {
                 new Event("Bob", "./prod?id=1", 2300L),
                 new Event("Bob", "./prod?id=3", 3300L));
 
-        // 1. 随机分区
+        // 1. 随机分区 （洗牌）
         stream.shuffle().print("shuffle").setParallelism(4);
 
         // 2. 轮询分区

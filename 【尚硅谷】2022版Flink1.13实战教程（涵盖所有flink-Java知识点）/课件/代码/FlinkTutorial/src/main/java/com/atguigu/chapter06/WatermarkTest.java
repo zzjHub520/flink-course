@@ -27,6 +27,8 @@ public class WatermarkTest {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setParallelism(1);
+        // 设置水位线周期
+//        env.getConfig().setAutoWatermarkInterval(100);
 
         // 将数据源改为socket文本流，并转换成Event类型
         env.socketTextStream("localhost", 7777)
