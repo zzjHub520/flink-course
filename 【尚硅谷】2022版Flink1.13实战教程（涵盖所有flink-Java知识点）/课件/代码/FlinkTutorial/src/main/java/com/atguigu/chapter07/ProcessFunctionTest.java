@@ -12,6 +12,7 @@ import com.atguigu.chapter05.ClickSource;
 import com.atguigu.chapter05.Event;
 import org.apache.flink.api.common.eventtime.SerializableTimestampAssigner;
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
+import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.functions.ProcessFunction;
 import org.apache.flink.util.Collector;
@@ -21,7 +22,7 @@ public class ProcessFunctionTest {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setParallelism(1);
 
-        env
+        SingleOutputStreamOperator<Event> stream = env
                 .addSource(new ClickSource())
                 .assignTimestampsAndWatermarks(
                         WatermarkStrategy.<Event>forMonotonousTimestamps()
@@ -31,20 +32,25 @@ public class ProcessFunctionTest {
                                         return event.timestamp;
                                     }
                                 })
-                )
+                );
+
+        SingleOutputStreamOperator<String> process = stream
                 .process(new ProcessFunction<Event, String>() {
                     @Override
                     public void processElement(Event value, Context ctx, Collector<String> out) throws Exception {
                         if (value.user.equals("Mary")) {
-                            out.collect(value.user);
+                            out.collect(value.user + " 1");
                         } else if (value.user.equals("Bob")) {
-                            out.collect(value.user);
-                            out.collect(value.user);
+                            out.collect(value.user + " 2");
+                            out.collect(value.user + " 3");
                         }
-                        System.out.println(ctx.timerService().currentWatermark());
+                        System.out.println("Watemark: " + ctx.timerService().currentWatermark());
                     }
-                })
-                .print();
+                });
+
+        stream.print("input");
+        process.print("process");
+
 
         env.execute();
     }

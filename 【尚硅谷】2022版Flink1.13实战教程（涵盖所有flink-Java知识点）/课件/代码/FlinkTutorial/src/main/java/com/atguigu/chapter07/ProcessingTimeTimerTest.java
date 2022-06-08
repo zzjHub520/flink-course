@@ -26,19 +26,19 @@ public class ProcessingTimeTimerTest {
         SingleOutputStreamOperator<Event> stream = env.addSource(new ClickSource());
 
         // 要用定时器，必须基于KeyedStream
-        stream.keyBy(data -> true)
-                .process(new KeyedProcessFunction<Boolean, Event, String>() {
+        stream.keyBy(data -> data.user)
+                .process(new KeyedProcessFunction<String, Event, String>() {
                     @Override
                     public void processElement(Event value, Context ctx, Collector<String> out) throws Exception {
-                        Long currTs = ctx.timerService().currentProcessingTime();
-                        out.collect("数据到达，到达时间：" + new Timestamp(currTs));
+                        long currTs = ctx.timerService().currentProcessingTime();
+                        out.collect(ctx.getCurrentKey() + "\t 数据到达，到达时间：" + new Timestamp(currTs));
                         // 注册一个10秒后的定时器
                         ctx.timerService().registerProcessingTimeTimer(currTs + 10 * 1000L);
                     }
 
                     @Override
                     public void onTimer(long timestamp, OnTimerContext ctx, Collector<String> out) throws Exception {
-                        out.collect("定时器触发，触发时间：" + new Timestamp(timestamp));
+                        out.collect(ctx.getCurrentKey() + "\t 定时器触发，触发时间：" + new Timestamp(timestamp));
                     }
                 })
                 .print();
