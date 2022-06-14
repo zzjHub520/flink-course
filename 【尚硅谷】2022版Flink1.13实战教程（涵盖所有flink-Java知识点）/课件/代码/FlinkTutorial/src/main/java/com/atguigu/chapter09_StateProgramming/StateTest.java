@@ -14,6 +14,8 @@ import org.apache.flink.streaming.api.datastream.SingleOutputStreamOperator;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.util.Collector;
 
+import java.util.ArrayList;
+
 
 /**
  * Copyright (c) 2020-2030 尚硅谷 All Rights Reserved
@@ -60,7 +62,7 @@ public class StateTest {
 
         @Override
         public void open(Configuration parameters) throws Exception {
-            ValueStateDescriptor<Event> valueStateDescriptor = new ValueStateDescriptor<>("my-state", Event.class);
+            ValueStateDescriptor<Event> valueStateDescriptor = new ValueStateDescriptor<>("my-value", Event.class);
             myValueState = getRuntimeContext().getState(valueStateDescriptor);
 
             myListState = getRuntimeContext().getListState(new ListStateDescriptor<Event>("my-list", Event.class));
@@ -89,7 +91,7 @@ public class StateTest {
 
                         @Override
                         public String getResult(Long accumulator) {
-                            return "count: " + accumulator;
+                            return "agg-count: " + accumulator;
                         }
 
                         @Override
@@ -111,23 +113,26 @@ public class StateTest {
         @Override
         public void flatMap(Event value, Collector<String> out) throws Exception {
             // 访问和更新状态
-            System.out.println(myValueState.value());
+            //System.out.println(myValueState.value());
             myValueState.update(value);
-            System.out.println( "my value: " + myValueState.value() );
+            System.out.println( "my value state: " + myValueState.value() );
 
             myListState.add(value);
+            System.out.println( "my list state: " + myListState.get() );
 
             myMapState.put(value.user, myMapState.get(value.user) == null? 1: myMapState.get(value.user) + 1);
-            System.out.println( "my map value: " + myMapState.get(value.user) );
+            System.out.println( "my map   state: " + myMapState.get(value.user) );
 
             myReducingState.add(value);
-            System.out.println( "my reducing value: " + myReducingState.get() );
+            System.out.println( "my reduce state: " + myReducingState.get() );
 
             myAggregatingState.add(value);
-            System.out.println( "my agg value: " + myAggregatingState.get() );
+            System.out.println( "my agg    state: " + myAggregatingState.get() );
 
             count ++;
             System.out.println("count: " + count);
+            System.out.println("------------------------------------");
+            myListState.clear();
         }
     }
 }

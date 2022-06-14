@@ -5,130 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15343379-62e6-41fb-8391-3a4f1c3f2186" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter02/BatchWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter02_QuickStart/BatchWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter02/BoundedStreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter02_QuickStart/BoundedStreamWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter02/StreamWordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter02_QuickStart/StreamWordCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/ClickSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/ClickSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/SinkToEsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/SinkToEsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/SinkToFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/SinkToFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/SinkToKafkaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/SinkToKafkaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/SinkToMySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/SinkToMySQL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/SinkToRedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/SinkToRedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/SourceCustomParallelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/SourceCustomParallelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/SourceCustomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/SourceCustomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/SourceKafkaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/SourceKafkaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/SourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/SourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/TransFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/TransFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/TransFlatmapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/TransFlatmapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/TransMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/TransMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/TransPhysicalPatitioningTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/TransPhysicalPatitioningTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/TransPojoAggregationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/TransPojoAggregationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/TransReduceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/TransReduceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/TransReturnTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/TransReturnTypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/TransRichFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/TransRichFunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/TransTupleAggreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/TransTupleAggreationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05/TransUdfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter05_DataStreamBasics/TransUdfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/CustomWatermarkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/CustomWatermarkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/EmitWatermarkInSourceFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/EmitWatermarkInSourceFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/LateDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/LateDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/ProcessLateDataExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/ProcessLateDataExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/TriggerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/TriggerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/UrlViewCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/UrlViewCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/UrlViewCountExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/UrlViewCountExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/UvCountByWindowExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/UvCountByWindowExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/WatermarkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/WatermarkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/WindowAggregateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/WindowAggregateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/WindowAggregateTest_PvUv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/WindowAggregateTest_PvUv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/WindowProcessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/WindowProcessTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/WindowReduceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/WindowReduceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06/WindowsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter06_TimeAndWindows/WindowsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07/EventTimeTimerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07_ProcessFunction/EventTimeTimerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07/KeyedProcessTopN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07_ProcessFunction/KeyedProcessTopN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07/ProcessAllWindowTopN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07_ProcessFunction/ProcessAllWindowTopN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07/ProcessFunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07_ProcessFunction/ProcessFunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07/ProcessingTimeTimerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07_ProcessFunction/ProcessingTimeTimerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07/TopNExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter07_ProcessFunction/TopNExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08/BillCheckExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08_MultiStreamTransform/BillCheckExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08/CoGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08_MultiStreamTransform/CoGroupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08/ConnectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08_MultiStreamTransform/ConnectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08/IntervalJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08_MultiStreamTransform/IntervalJoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08/SplitStreamByFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08_MultiStreamTransform/SplitStreamByFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08/SplitStreamByOutputTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08_MultiStreamTransform/SplitStreamByOutputTag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08/UnionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08_MultiStreamTransform/UnionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08/WindowJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter08_MultiStreamTransform/WindowJoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09/AverageTimestampExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/AverageTimestampExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09/BroadcastStateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/BroadcastStateExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09/BufferingSinkExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/BufferingSinkExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09/FakeWindowExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/FakeWindowExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09/PeriodicPvExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/PeriodicPvExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/StateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09/TwoStreamFullJoinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/CommonApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/CommonApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/CumulateWindowExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/CumulateWindowExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/SimpleTableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/SimpleTableExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/TableToStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/TableToStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/TimeAndWindowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/TimeAndWindowTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/TopNExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/TopNExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/UdfTest_AggregateFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/UdfTest_AggregateFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/UdfTest_ScalarFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/UdfTest_ScalarFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/UdfTest_TableAggregatteFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/UdfTest_TableAggregatteFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/UdfTest_TableFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/UdfTest_TableFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11/WindowTopNExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter11_TableAPIAndSQL/WindowTopNExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12/LoginEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12_FlinkCEP/LoginEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12/LoginFailDetectExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12_FlinkCEP/LoginFailDetectExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12/LoginFailDetectProExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12_FlinkCEP/LoginFailDetectProExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12/NFAExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12_FlinkCEP/NFAExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12/OrderEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12_FlinkCEP/OrderEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12/OrderTimeoutDetectExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter12_FlinkCEP/OrderTimeoutDetectExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/EventTimeTimerTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/EventTimeTimerTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/EventTimeTimerTest$CustomSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/EventTimeTimerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/KeyedProcessTopN$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/KeyedProcessTopN$TopN$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/KeyedProcessTopN$TopN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/KeyedProcessTopN$UrlViewCountAgg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/KeyedProcessTopN$UrlViewCountResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/KeyedProcessTopN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/ProcessAllWindowTopN$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/ProcessAllWindowTopN$2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/ProcessAllWindowTopN$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/ProcessAllWindowTopN$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/ProcessAllWindowTopN.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/ProcessFunctionTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/ProcessFunctionTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/ProcessFunctionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/ProcessingTimeTimerTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter07/ProcessingTimeTimerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/AverageTimestampExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/AverageTimestampExample$AvgTsResult$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/AverageTimestampExample$AvgTsResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/AverageTimestampExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/BroadcastStateExample$Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/BroadcastStateExample$Pattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/BroadcastStateExample$PatternEvaluator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/BroadcastStateExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/BufferingSinkExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/BufferingSinkExample$BufferingSink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/BufferingSinkExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/FakeWindowExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/FakeWindowExample$FakeWindowResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/FakeWindowExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/PeriodicPvExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/PeriodicPvExample$PeriodicPvResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/PeriodicPvExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/StateTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/StateTest$MyFlatMap$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/StateTest$MyFlatMap$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/StateTest$MyFlatMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/StateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/TwoStreamFullJoinExample$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/TwoStreamFullJoinExample$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/TwoStreamFullJoinExample$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chatper09/TwoStreamFullJoinExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/PeriodicPvExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/PeriodicPvExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/StateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/PeriodicPvExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/PeriodicPvExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/PeriodicPvExample$PeriodicPvResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/PeriodicPvExample$PeriodicPvResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/PeriodicPvExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/PeriodicPvExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/StateTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/StateTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/StateTest$MyFlatMap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/StateTest$MyFlatMap$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/StateTest$MyFlatMap$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/StateTest$MyFlatMap$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/StateTest$MyFlatMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/StateTest$MyFlatMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/StateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/StateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/chapter09_StateProgramming/TwoStreamFullJoinExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,9 +57,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.TriggerExample">
-    <configuration name="BatchWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter02_QuickStart.BatchWordCount" />
+  <component name="RunManager" selected="Application.FakeWindowExample">
+    <configuration name="BoundedStreamWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter02_QuickStart.BoundedStreamWordCount" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
@@ -179,12 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoundedStreamWordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter02_QuickStart.BoundedStreamWordCount" />
+    <configuration name="FakeWindowExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter09_StateProgramming.FakeWindowExample" />
       <module name="FlinkTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.chapter02_QuickStart.*" />
+          <option name="PATTERN" value="com.atguigu.chapter09_StateProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter09_StateProgramming.StateTest" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter09_StateProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,6 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoStreamFullJoinExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter09_StateProgramming.TwoStreamFullJoinExample" />
+      <module name="FlinkTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter09_StateProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,9 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FakeWindowExample" />
+        <item itemvalue="Application.TwoStreamFullJoinExample" />
+        <item itemvalue="Application.StateTest" />
         <item itemvalue="Application.TriggerExample" />
         <item itemvalue="Application.BoundedStreamWordCount" />
-        <item itemvalue="Application.BatchWordCount" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +154,10 @@
       <updated>1654959839244</updated>
       <workItem from="1654959857435" duration="2534000" />
       <workItem from="1654964350296" duration="4010000" />
+      <workItem from="1655030251109" duration="5369000" />
+      <workItem from="1655123395858" duration="5769000" />
+      <workItem from="1655207173214" duration="67000" />
+      <workItem from="1655207277559" duration="1674000" />
     </task>
     <servers />
   </component>
@@ -250,5 +174,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

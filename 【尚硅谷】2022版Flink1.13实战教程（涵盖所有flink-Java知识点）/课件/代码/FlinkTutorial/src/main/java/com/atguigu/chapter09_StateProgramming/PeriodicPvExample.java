@@ -22,8 +22,6 @@ import org.apache.flink.streaming.api.functions.KeyedProcessFunction;
 
 import org.apache.flink.util.Collector;
 
-
-
 public class PeriodicPvExample{
 
     public static void main(String[] args) throws Exception{
