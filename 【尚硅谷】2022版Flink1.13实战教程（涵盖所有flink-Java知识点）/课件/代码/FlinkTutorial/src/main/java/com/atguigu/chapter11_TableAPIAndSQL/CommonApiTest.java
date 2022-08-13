@@ -86,7 +86,6 @@ public class CommonApiTest {
                 " 'path' = 'output', " +
                 " 'format' =  'csv' " +
                 ")";
-
         tableEnv.executeSql(createOutDDL);
 
         // 创建一张用于控制台打印输出的表
@@ -96,7 +95,6 @@ public class CommonApiTest {
                 ") WITH (" +
                 " 'connector' = 'print' " +
                 ")";
-
         tableEnv.executeSql(createPrintOutDDL);
 
         // 5. 输出表
